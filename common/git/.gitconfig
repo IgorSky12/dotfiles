@@ -1,0 +1,21 @@
+[user]
+    email = igor.skoblikov@stud.hs-ruhrwest.de
+    name = igorsky12
+[core]
+    sshCommand = ssh -i ~/.ssh/id_rsa_GITHUB
+    autocrlf = input
+    editor = code --wait
+    pager = delta
+    ignorecase = false
+[init]
+  defaultBranch = trunk
+[merge]
+    tool = vscode
+[mergetool "vscode"]
+    cmd = code --wait $MERGED
+[diff]
+    tool = vscode
+[difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE
+[mergetool "vscode"]
+    cmd = code --wait $MERGED
