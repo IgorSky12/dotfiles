@@ -16,4 +16,4 @@
     
 5. `git clone https://github.com/IgorSky12/dotfiles $env:DOTFILES` 
 
-6. `./$env:DOTFILES/install/symlink.ps1`
+6. `. $env:DOTFILES/install/symlink.ps1`
